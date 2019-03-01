@@ -14,19 +14,19 @@
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Default">
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ms-appx:///Telerik.UI.Xaml.Chart.UWP/Themes/ThemeResourcesDark.xaml"/>
+                <ResourceDictionary Source="ms-appx:///Telerik.Chart/Themes/ThemeResourcesDark.xaml"/>
                 <ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <ResourceDictionary x:Key="Light">
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ms-appx:///Telerik.UI.Xaml.Chart.UWP/Themes/ThemeResourcesLight.xaml"/>
+                <ResourceDictionary Source="ms-appx:///Telerik.Chart/Themes/ThemeResourcesLight.xaml"/>
                 <ResourceDictionary Source="{CustomResource LightResourcesPath}"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <ResourceDictionary x:Key="HighContrast">
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ms-appx:///Telerik.UI.Xaml.Chart.UWP/Themes/ThemeResourcesHighContrast.xaml"/>
+                <ResourceDictionary Source="ms-appx:///Telerik.Chart/Themes/ThemeResourcesHighContrast.xaml"/>
                 <ResourceDictionary Source="{CustomResource HighContrastResourcesPath}"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

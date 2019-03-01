@@ -193,21 +193,21 @@
     <SolidColorBrush x:Key="TelerikGridColumnFlyoutColumnHeaderCheckBoxCheckedPressedBackgroundBrush" Color="{ThemeResource TelerikPressedBackgroundColor}"/>
     <SolidColorBrush x:Key="TelerikGridColumnFlyoutColumnHeaderCheckBoxCheckedPressedForegroundBrush" Color="{ThemeResource TelerikSelectedColor}"/>
 
-    <BitmapImage x:Key="TelerikGridReorderHandle" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/ic_reorder_dark.png"></BitmapImage>
-    <BitmapImage x:Key="TelerikGridReorderHandleWhite" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/ic_reorder_dark.png"></BitmapImage>
-    <BitmapImage x:Key="TelerikGridColumnChooserOpen" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/column_chooser_btn.png"></BitmapImage>
-    <BitmapImage x:Key="TelerikGridColumnChooserOpenMouseOver" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/column_chooser_btn_blue.png"></BitmapImage>
-    <BitmapImage x:Key="TelerikGridColumnChooserClose" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/close_btn.png"></BitmapImage>
-    <BitmapImage x:Key="TelerikGridColumnChooserCloseMouseOver" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/Reorder/close_btn_blue.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridReorderHandle" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/ic_reorder_dark.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridReorderHandleWhite" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/ic_reorder_dark.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridColumnChooserOpen" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/column_chooser_btn.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridColumnChooserOpenMouseOver" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/column_chooser_btn_blue.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridColumnChooserClose" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/close_btn.png"></BitmapImage>
+    <BitmapImage x:Key="TelerikGridColumnChooserCloseMouseOver" UriSource="ms-appx:///Telerik.Grid/Assets/Reorder/close_btn_blue.png"></BitmapImage>
     
     <!--FilterFlyoutIcons-->
-    <BitmapImage x:Key="TelerikGridFilterFlyoutHeaderIcon" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/FilterFlyout/ic_filter_header_dark.png"/>
-    <BitmapImage x:Key="TelerikGridFilterFlyoutExpanderIcon" UriSource="ms-appx:///Telerik.UI.Xaml.Grid.UWP/Assets/FilterFlyout/ic_arrow_down_white.png"/>
+    <BitmapImage x:Key="TelerikGridFilterFlyoutHeaderIcon" UriSource="ms-appx:///Telerik.Grid/Assets/FilterFlyout/ic_filter_header_dark.png"/>
+    <BitmapImage x:Key="TelerikGridFilterFlyoutExpanderIcon" UriSource="ms-appx:///Telerik.Grid/Assets/FilterFlyout/ic_arrow_down_white.png"/>
 
     <telerik:UserThemeResources x:Key="ResourceLoaderInitializer"/>
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="ms-appx:///Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsDark.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Telerik.Primitives/Themes/ThemeColorsDark.xaml"/>
         <ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
     </ResourceDictionary.MergedDictionaries>
 

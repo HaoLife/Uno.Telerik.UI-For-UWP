@@ -1,26 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
-	<PropertyGroup>
-		<TargetFrameworks>uap10.0;xamarinios10;MonoAndroid80;netstandard2.0</TargetFrameworks>
-		<Product>$(AssemblyName) ($(TargetFramework))</Product>
-		<DefaultLanguage>en-US</DefaultLanguage>
-	</PropertyGroup>
-
-	<Import Project="..\CrossTargetting.props" />
-
-	<ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == 'MonoAndroid' or  '$(TargetFrameworkIdentifier)' == 'Xamarin.iOS' ">
-		<PackageReference Include="Uno.UI">
-			<Version>1.43.0-dev.850</Version>
-		</PackageReference>
-		<Reference Include="Microsoft.CSharp" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="Uno.UI" Version="1.43.0-dev.850" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Core.UWP\Telerik.Core.csproj" />
-	</ItemGroup>
-
-
+    <PropertyGroup>
+        <!-- <TargetFrameworks>uap10.0;xamarinios10;MonoAndroid80;netstandard2.0</TargetFrameworks> -->
+        <TargetFrameworks>uap10.0;</TargetFrameworks>
+        <Product>$(AssemblyName) ($(TargetFramework))</Product>
+        <DefaultLanguage>en-US</DefaultLanguage>
+    </PropertyGroup>
+    <Import Project="..\CrossTargetting.props" />
+    <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == 'MonoAndroid' or  '$(TargetFrameworkIdentifier)' == 'Xamarin.iOS' ">
+        <PackageReference Include="Uno.UI">
+            <Version>1.43.0-dev.850</Version>
+        </PackageReference>
+        <Reference Include="Microsoft.CSharp" />
+    </ItemGroup>
+    <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+        <PackageReference Include="CommonServiceLocator" Version="1.4.0" />
+        <PackageReference Include="Uno.UI" Version="1.43.0-dev.850" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Core.UWP\Telerik.Core.csproj" />
+    </ItemGroup>
 </Project>

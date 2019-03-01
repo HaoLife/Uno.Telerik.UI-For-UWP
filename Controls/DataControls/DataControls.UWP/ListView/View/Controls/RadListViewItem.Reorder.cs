@@ -13,8 +13,8 @@ namespace Telerik.UI.Xaml.Controls.Data.ListView
         private int logicalIndex;
         private bool isHandleEnabled;
 
-        private string defaultHandleIconPathLight = "ms-appx:///Telerik.UI.Xaml.Controls.Data.UWP/ListView/Resources/reorder-handle-light.png";
-        private string defaultHandleIconPathDark = "ms-appx:///Telerik.UI.Xaml.Controls.Data.UWP/ListView/Resources/reorder-handle-dark.png";
+        private string defaultHandleIconPathLight = "ms-appx:///Telerik.Data/ListView/Resources/reorder-handle-light.png";
+        private string defaultHandleIconPathDark = "ms-appx:///Telerik.Data/ListView/Resources/reorder-handle-dark.png";
 
         /// <summary>
         /// Gets the path of the handle icon.

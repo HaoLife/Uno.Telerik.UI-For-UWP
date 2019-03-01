@@ -252,7 +252,7 @@
     <!--#endregion-->
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="ms-appx:///Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsDark.xaml" />
+        <ResourceDictionary Source="ms-appx:///Telerik.Primitives/Themes/ThemeColorsDark.xaml" />
         <ResourceDictionary Source="{CustomResource DarkResourcesPath}" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
